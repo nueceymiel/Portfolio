@@ -1,129 +1,262 @@
-<!DOCTYPE HTML>
-
 <html>
-	<head>
-		<title>Jaime's Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+    <head>
+        <title>
+            Noe Villa Figueroa Art
+        </title>
+        <link href="style.css" type="text/css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Tajawal&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Cantarell&display=swap" rel="stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+        </style>
+    </head>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+    <body>
+        <div class="coverbox">
+            <!--Title and bio-->
+            <div class="bio">
+                <h1>
+                Noe Villa Figueroa
+                </h1>
+                <h2>
+                Berkeley based rising artsit. <br />
+                I create work on borders, home, and the sense of rediscovery through portraits.
+                </h2>
+            </div>
 
-				<!-- Header -->
-					<header id="header">
-					</header>
-				
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">Overview</a></li>	
-							<!-- <li class="active"><a href="https://github.com/jaavilla/jaavilla.github.io/blob/master/Boston_Housing_Price_Prediction.ipynb">Boston Housing Price Prediction Project</a></li> -->												
-						</ul>
-						<ul class="icons">
-							<li><a href="https://linkedin.com/in/jaime-villa-985617175" class="icon fa-linkedin"><span class="label">linkedin</span></a></li>
-							<li><a href="https://github.com/jaavilla" class="icon fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+            <nav role="navigation" class="primary-navigation">
+                <ul>
+                    <li><a href="#acrylic">Acrylic</a></li>
+                    <li><a href="#pastel">Pastel</a></li>
+                    <li><a href="#watercolor">Watercolor</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </nav>
 
-				<!-- Main -->
-					<div id="main">
+             <!-- works Image Gallery → Image Frame → Image (with link for 1st group)-->
+             <div class="gallery-grid">
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h2>Jaime's Portfolio</h2>
-									<p>Experienced Data Analyst searching to transition into a Data Science position. I have a variety of projects mainly showcasing concepts and overall knowledge from likes of data science to math as well as some school projects. Feel free to inspect the code on any of my projects, or if you have any questions feel free to contact me as well.</p>
-								</header>
-								<!-- <a href="Math 106/Final Project/x-and-z/index.html" class="image main"><img src="Math 106/Final Project/pics/d1a.png" alt="" /></a>
-								<p> Above is a still image of my favorite project, click on the image to see it in motion! The Lorenz System was recreated with <b>.p5</b>; a <b>JavaScript library</b>. I also have different axis views available below, check them out! </p>
-								<ul class="actions special">
-									<li><a href="Math 106/Final Project/x-and-y/index.html" class="button large">View of x and y axis</a></li>
-									<li><a href="Math 106/Final Project/x-and-z/index.html" class="button large">View of x and z axis</a></li>
-									<li><a href="Math 106/Final Project/y-and-z/index.html" class="button large">View of y and z axis</a></li>
-									<li><a href="https://github.com/jaavilla/Lorenz-" class="button large">Inspect Code</a></li>
-								</ul> -->
-							</article>
+              <div class="gallery-frame">
+                <div class="image-container">
+                  <img class="gallery-img" src="Images/forced relationship .jpg" alt="acrylic 1"/>
+                  <div class="overlay">
+                    <div class="text">
+                      Self Portrait<br />Acrylic on Panel 24x24<br />2021
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-										<h2>Boston Housing Price Prediction</h2>
-									</header>
-									<a href="https://github.com/jaavilla/jaavilla.github.io/tree/master/Boston%20Housing%20Price%20Prediction%20Project" class="image main"><img src="Boston Housing Price Prediction Project\images\homepriceprediction.png" alt="" /></a>
-									<p> Utilized machine learning to predict Boston housing value/features using regression. Evaluated the performance of the regression model. (python, numpy, pandas, scikit learn, matplotlib, seaborn)  </p>
-									<ul class="actions special">
-										<li><a href="https://github.com/jaavilla/jaavilla.github.io/tree/master/Boston%20Housing%20Price%20Prediction%20Project" class="button">Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2>Regression</h2>
-									</header>
-									<a href="https://github.com/jaavilla/jaavilla.github.io/tree/master/Regression" class="image main"><img src="Regression\pics\regression.png" alt="" /></a>
-									<p> •	Deployed linear regression, logistic regression, decision tree analysis, and other data mining techniques to predict prices and success rates that can be applied to numerous real-world scenarios.   </p>
-									<ul class="actions special">
-										<li><a href="https://github.com/jaavilla/jaavilla.github.io/tree/master/Regression" class="button">Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2>Turtle Race</h2>
-									</header>
-									<iframe src="https://trinket.io/embed/python/f34359ba62" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-									<p>Created a game in collaboration with 2 other people which animated a race and determined a random distinct winner. (Python) </p>
-									<ul class="actions special">
-										<li><a href="https://github.com/jaavilla/Turtle-race/blob/master/Final%20Project.py" class="button">Inspect Code</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										<h2>Savings Account</h2>
-									</header><iframe src="https://trinket.io/embed/python/5e7ece8339" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-									
-									<p>Wrote a script that manages a savings account for one year with monthly interest rates, deposits, and withdrawals. (Python)</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Inspect Code</a></li>
-									</ul>
-								</article>
-								
-							</section>
+              <div class="gallery-frame">
+                <div class="image-container">
+                  <img class="gallery-img" src="Images/Hybrid_SP1.jpg" alt="acrylic 2"/>
+                  <div class="overlay">
+                    <div class="text">
+                      Relatives<br>Acrylic on Panel 24x24<br>2021
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-						<!-- Footer -->
-							<footer>
-				<!-- Footer -->
-					<footer id="footer">
-						<section class="split contact">
-							<section class="alt">
-								<h3>Location</h3>
-								<p>Anaheim, CA</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(714) 791-8080</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">jaavilla96@gmail.com</a></p>
-							</section>
-						</section>
-					</footer>
+              <div class="gallery-frame">
+                <div class="image-container">
+                  <img class="gallery-img" src="Images/arbol.jpg" alt="acrylic 3"/>
+                  <div class="overlay">
+                    <div class="text">
+                      Mi Arbol<br>Acrylic on Canvas 18x24<br>2021
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-				
-			</div>
+              <div class="gallery-frame">
+                <div class="image-container">
+                  <img class="gallery-img" src="Images/final scan_Page_2.jpg" alt="mixed media"/>
+                  <div class="overlay">
+                    <div class="text">
+                        Collage<br>handmade paint on fabric<br>2021
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+              <div class="gallery-frame">
+                <div class="image-container">
+                  <img class="gallery-img" src="Images/IMG_2942.jpeg" alt="mixed media"/>
+                  <div class="overlay">
+                    <div class="text">
+                        Window Pane<br>Acrylic Transfer on Fabric<br>2021
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-	</body>
+            <div class="gallery-frame">
+                <a id="pastel">
+                  <div class="image-container">
+                    <img class="gallery-img" src="Images/IMG_2905.jpeg" alt="mixed media"/>
+                    <div class="overlay">
+                      <div class="text">
+                          Hands Up<br>Chile Guajillo and Seaweed Powder on Panel<br>2021
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="gallery-frame">
+                <div class="image-container">
+                  <img class="gallery-img" src="Images/IMG_0186.jpeg" alt="acrylic 4"/>
+                  <div class="overlay">
+                    <div class="text">
+                        My First Painting<br>Acrylic on Canvas<br>2018
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="gallery-frame">
+                <div class="image-container">
+                  <img class="gallery-img" src="Images/IMG_0187.jpeg" alt="acrylic 5"/>
+                  <div class="overlay">
+                    <div class="text">
+                        Sound of Music<br>Acryclic on Canvas<br>2018
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="gallery-frame">
+                <div class="image-container">
+                  <img class="gallery-img" src="Images/Screen Shot 2021-03-07 at 8.44.34 PM.png" alt="sculpture" />
+                  <div class="overlay">
+                    <div class="text">
+                        Rock People<br>Digital Sculpture<br>2021
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="gallery-frame">
+                <div class="image-container">
+                  <img class="gallery-img" src="Images/romeo 4.jpg" alt="photography 1"/>
+                  <div class="overlay">
+                    <div class="text">
+                        Romeo<br>Digial Photography<br>2019
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="gallery-frame">
+                <div class="image-container">
+                  <img class="gallery-img" src="Images/noe 3.jpg" alt="photography 2"/>
+                  <div class="overlay">
+                    <div class="text">
+                        Gloss<br>Digital Photography<br>2019
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="gallery-frame">
+                <a id="watercolor">
+                  <div class="image-container">
+                    <img class="gallery-img" src="Images/romeo 2.jpg" alt="photography 3"/>
+                    <div class="overlay">
+                      <div class="text">
+                          Romeo 2<br>Digital Photography<br>2019
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="gallery-frame">
+                <div class="image-container">
+                  <img class="gallery-img" src="images/watercolor-3.JPG" alt="watercolor green man"/>
+                  <div class="overlay">
+                    <div class="text">
+                        Look Away<br>Watercolor<br>2019
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="gallery-frame">
+                <div class="image-container">
+                  <img class="gallery-img" src="images/watercolor-4.JPG" alt="sad girl with blue hair"/>
+                  <div class="overlay">
+                    <div class="text">
+                        This is not the end<br>Watercolor<br>2019
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="gallery-frame">
+                <div class="image-container">
+                  <img class="gallery-img" src="images/watercolor-6.JPG" alt="blue man"/>
+                  <div class="overlay">
+                    <div class="text">
+                        Thinking<br>Watercolor<br>2019
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="gallery-frame">
+                <div class="image-container">
+                  <img class="gallery-img" src="images/watercolor-1.JPG" alt="watercolor green man"/>
+                  <div class="overlay">
+                    <div class="text">
+                        Rejoice<br>Watercolor<br>2019
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="gallery-frame">
+                <div class="image-container">
+                  <img class="gallery-img" src="images/watercolor-5.JPG" alt="red man"/>
+                  <div class="overlay">
+                    <div class="text">
+                        Human<br>Watercolor<br>2019
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <footer>
+
+                    <h3>
+                        <a id="Contact">Contact</a>
+                    </h3>
+
+                    <p>
+                        Instagram (portraits):
+                        <a href="https://www.instagram.com/callmehydrangea/" target="_blank" style="color:  rgba(25, 25, 97, 0.733)">@callmehydrangea</a>
+                    </p>
+
+                    <p>
+                        Instagram (illustrations):
+                        <a href="https://www.instagram.com/riechanchanchann/" target="_blank" style="color:  rgba(25, 25, 97, 0.733)">@riechanchanchann</a>
+                    </p>
+
+                    <p>
+                        GIPHY Channel (illustrations):
+                        <a href="https://giphy.com/riechanchanchann" target="_blank" style="color:  rgba(25, 25, 97, 0.733)">@riechanchanchann</a>
+                    </p>
+
+            </footer>
+
+        </div>
+    </body>
 </html>
