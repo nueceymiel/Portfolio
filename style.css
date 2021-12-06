@@ -87,7 +87,7 @@ nav li a:hover {
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(250px, 1fr));
-    grid-template-rows: repeat(6, 400px);
+    grid-template-rows: repeat(12, 400px);
     grid-gap: 5%;
     margin: 0;
     padding: 0;
