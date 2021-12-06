@@ -95,7 +95,7 @@ nav li a:hover {
 
 .gallery-frame {
     width: auto;
-    max-height: 370px;
+    max-height: 740px;
     display: block;
     position: relative;
     align-items: center;
@@ -111,8 +111,8 @@ nav li a:hover {
 }
 
 .gallery-img {
-    width: 300px;
-    max-height: 370px;
+    width: 600px;
+    max-height: 740px;
     object-fit: cover;
     overflow: hidden;
     transform: scale(1);
