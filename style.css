@@ -18,7 +18,7 @@ html {
 footer h3 {
     align-items: left;
     padding-bottom: 0;
-    color: rgba(97, 54, 25, 0.733);
+    color: rgba(25, 25, 97, 0.733);
     font-family: 'Tajawal', sans-serif;
     font-weight: lighter;
     font-size: 1.5vw;
@@ -36,7 +36,7 @@ footer {
     font-weight: lighter;
     line-height: 1.0;
     letter-spacing: 0.5px;
-    color: rgba(96, 77, 165, 0.733);
+    color: rgba(25, 25, 97, 0.733);
     padding-right: 7%;
     text-align: left;
 }
@@ -47,7 +47,7 @@ h2 {
     font-size: 2vw;
     line-height: 1.0;
     letter-spacing: 0.5px;
-    color: rgba(96, 57, 158, 0.733);
+    color: rgba(25, 25, 97, 0.733);
     padding-right: 7%;
 }
 
